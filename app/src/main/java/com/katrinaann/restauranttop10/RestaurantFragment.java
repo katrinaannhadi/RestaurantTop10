@@ -59,14 +59,15 @@ public class RestaurantFragment extends Fragment {
 
             @Override
             public void onClick(View v) {
-                searchRestaurant(mRestaurant.getName());
+                searchRestaurant(mRestaurant.getName(),mRestaurant.getLocation());
+
             }
 
         });
         return v;
     }
-    private void searchRestaurant(String name){
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/search?q=" + name));
+    private void searchRestaurant(String name, String location){
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/search?q=" + name + " " + location));
         startActivity(intent);
     }
     private void setImage(String url, final View view){
