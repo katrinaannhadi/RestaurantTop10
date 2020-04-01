@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Restaurants in Sydney</string>
+    <string name="my_restaurants">Restaurants</string>
+    <string name="featured">Featured</string>
+    <string name="search">Search</string>
+    <string name="account">Account</string>
+    <string name="restaurantName">Restaurant Name</string>
+    <string name="restaurantCuisineType">Cuisine Type</string>
+    <string name="restaurantLocation">Location</string>
+    <string name="restaurantRating">Rating</string>
+    <string name="scroll">Scroll on cards and tap for more information</string>
+
+</resources>
