@@ -1,1 +1,2 @@
 # RestaurantTop10
+The Sydney tourism board is implementing a mobile first strategy and wants to present its finest restaurants to the world. To offer a variety of different cuisines, the app should display at least ten restaurants. You have been assigned to help the tourism board to develop an Android app that displays your most favourite restaurants in Sydney in a list. The app should display the name of the restaurants, the type of cuisine, a rough location, and your rating.
